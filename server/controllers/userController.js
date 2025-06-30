@@ -4,7 +4,7 @@ const sendToken = require('../utils/sendToken');
 const ErrorHandler = require('../utils/errorHandler');
 const sendEmail = require('../utils/sendEmail');
 const crypto = require('crypto');
-const cloudinary = require('cloudinary');
+const cloudinary = require('cloud-binary');
 
 // Register User
 exports.registerUser = asyncErrorHandler(async (req, res, next) => {
